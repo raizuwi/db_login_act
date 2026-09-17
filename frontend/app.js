@@ -5,6 +5,8 @@ const jwt = require("jsonwebtoken");
 const cors = require("cors");
 require("dotenv").config();
 
+const API_URL = "https://db-login-act.onrender.com";
+
 const app = express();
 
 app.use(cors());
