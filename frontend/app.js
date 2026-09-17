@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5500/";
+const API_URL = "https://db-login-act.onrender.com";
 
 const loginForm = document.getElementById("loginForm");
 const registerForm = document.getElementById("registerForm");
