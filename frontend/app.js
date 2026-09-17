@@ -34,7 +34,7 @@ loginForm.addEventListener("submit", async (e) => {
     localStorage.setItem("token", data.token);
     window.location.href = "dashboard.html";
   } catch (error) {
-    message.textContent = "Di maka connect ngani.";
+    message.textContent = "Server Unreachable.";
   }
 });
 
@@ -60,6 +60,6 @@ registerForm.addEventListener("submit", async (e) => {
       registerForm.reset();
     }
   } catch (error) {
-    message.textContent = "Cannot connect to the server.";
+    message.textContent = "Server Unreachable.";
   }
 });
