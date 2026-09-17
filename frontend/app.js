@@ -1,5 +1,6 @@
 const API_URL = "https://db-login-act.onrender.com";
 
+
 const loginForm = document.getElementById("loginForm");
 const registerForm = document.getElementById("registerForm");
 const showRegister = document.getElementById("showRegister");
