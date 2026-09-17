@@ -112,12 +112,12 @@ app.get("/api/profile", async (req, res) => {
   }
 });
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5500;
 
 mongoose.connect(process.env.MONGODB_URI)
   .then(() => {
     console.log("MongoDB connected.");
-    app.listen(PORT, () => {
+    app.listen(PORT, "0.0.0.0", () => {
       console.log(`Server running on port ${PORT}`);
     });
   })
